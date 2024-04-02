@@ -11,7 +11,7 @@ fn main() {
 	nums[2] = 8;
 	display_collection(&nums);
 	
-	// Vec-tos are growable/shrinkable !!
+	// Vectors are growable/shrinkable !!
 	// let mut vec_nums: Vec<i32> = Vec::from([1, 2, 3, 4, 5]); // vec! == Vec::from !!
 	let mut vec_nums: Vec<i32> = vec![1, 2, 3, 4, 5];
 	display_collection(&vec_nums);
@@ -29,7 +29,7 @@ fn main() {
 
 } // end main
 
-// fn display_collection(vect: &Vec<i32>) { // only works with Vec-tors!!
+// fn display_collection(vect: &Vec<i32>) { // only works with Vectors!!
 fn display_collection(collection: &[i32]) {
 	println!("{:?}, length: {}", collection, collection.len());
 }
