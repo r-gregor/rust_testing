@@ -12,7 +12,7 @@ fn main() {
 	display_collection(&nums);
 	
 	// Vectors are growable/shrinkable !!
-	// let mut vec_nums: Vec<i32> = Vec::from([1, 2, 3, 4, 5]); // vec! == Vec::from !!
+	// let mut vec_nums: Vec<i32> = Vec::from([1, 2, 3, 4, 5]); // vec! == Vec::from() !!
 	let mut vec_nums: Vec<i32> = vec![1, 2, 3, 4, 5];
 	display_collection(&vec_nums);
 
