@@ -1,2 +1,6 @@
 *.exe
 **/*.exe
+target
+target/*
+**/target
+**/target/*
