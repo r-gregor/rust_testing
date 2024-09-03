@@ -1,0 +1,7 @@
+C:\Users\gregor.redelonghi\majstaf_en\majprogs_en\cygwin64\home\gregor.redelonghi\majstaf_en\coding2\testing\rust_testing\rst_RUST_BOOK_PROJECTS\rst_projects_20240903\guessing_game\target\debug\deps\zerocopy_derive-8609a9308b300a8b.dll: C:\Users\gregor.redelonghi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerocopy-derive-0.7.35\src\lib.rs C:\Users\gregor.redelonghi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerocopy-derive-0.7.35\src\ext.rs C:\Users\gregor.redelonghi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerocopy-derive-0.7.35\src\repr.rs
+
+C:\Users\gregor.redelonghi\majstaf_en\majprogs_en\cygwin64\home\gregor.redelonghi\majstaf_en\coding2\testing\rust_testing\rst_RUST_BOOK_PROJECTS\rst_projects_20240903\guessing_game\target\debug\deps\zerocopy_derive-8609a9308b300a8b.d: C:\Users\gregor.redelonghi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerocopy-derive-0.7.35\src\lib.rs C:\Users\gregor.redelonghi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerocopy-derive-0.7.35\src\ext.rs C:\Users\gregor.redelonghi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerocopy-derive-0.7.35\src\repr.rs
+
+C:\Users\gregor.redelonghi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerocopy-derive-0.7.35\src\lib.rs:
+C:\Users\gregor.redelonghi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerocopy-derive-0.7.35\src\ext.rs:
+C:\Users\gregor.redelonghi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zerocopy-derive-0.7.35\src\repr.rs:
