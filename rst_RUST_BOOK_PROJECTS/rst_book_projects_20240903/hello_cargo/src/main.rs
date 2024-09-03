@@ -1,5 +1,6 @@
 /*
- * chapter 1.1: Hello, Cargo!
+ * chapter 1.3: Hello, Cargo!
+ * 20240903
  */
 
 fn main() {

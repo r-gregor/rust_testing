@@ -1,6 +1,8 @@
 /*
  * chapter 2: Programming a Guessing game
+ * 20240903
  */
+
 use std::io;
 use rand::Rng;
 use std::cmp::Ordering;
