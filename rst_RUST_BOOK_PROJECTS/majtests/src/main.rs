@@ -9,9 +9,9 @@ use std::io::Write;
 fn main() {
 	let name1="Gregor Redelonghi";
 	let mut s11 = String::from(name1);
-	println!("s11:                       '{s11}'");
+	println!("s11:                     '{s11}'");
 	let s12 = String::from(", Valvasorjeva ulica 5, 1000 Ljubljana");
-	println!("s12:                       '{s12}'");
+	println!("s12:                     '{s12}'");
 	s11 += &s12;
 	println!("s11 after 's11 += &s12': '{s11}'");
 
@@ -19,9 +19,9 @@ fn main() {
 
 	let name2 = "Gregor Redelonghi";
 	let mut s21 = String::from(name2);
-	println!("s21:                              '{s21}'");
+	println!("s21:                            '{s21}'");
 	let s22 = String::from(", Valvasorjeva ulica 5, 1000 Ljubljana");
-	println!("s22:                              '{s22}'");
+	println!("s22:                            '{s22}'");
 	s21.push_str(&s22);
 	println!("s21 after 's21.push_str(&s22)': '{s21}'");
 	s21.push_str(", 0038640885560, jb3.z0rg@gmail.com");
