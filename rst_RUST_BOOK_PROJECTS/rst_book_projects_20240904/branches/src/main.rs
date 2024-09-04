@@ -47,7 +47,7 @@ fn main() {
     /* using if in a let statement */
     println!("Using 'if' in 'let' statement:");
 	let condition = true;
-	let number = if condition {5} else {6};
+	let number = if condition {5} else {6}; // like ternary operator in c
 	println!("The value of number is {number}");
 
 	println!("---");
