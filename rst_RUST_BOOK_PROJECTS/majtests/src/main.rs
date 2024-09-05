@@ -3,9 +3,6 @@
  * 20240904
  */
 
-use std::io;
-use std::io::Write;
-
 fn main() {
 	let name1="Gregor Redelonghi";
 	let mut s11 = String::from(name1);
@@ -31,24 +28,12 @@ fn main() {
 
 	/* slices */
 	println!("Slices ...");
-	/*
-	let s31 = String::from("ena dva tri štiri pet šest sede osem devet deset");
-	println!("Original:                                   '{}'", s31);
-	let start =  5;
-	let stop  = 17;
-	let slc31 = &s31[start..stop];
-	println!("Slice from {start}-th to {stop}-th byte: '{slc31}'");
-
-	println!("---");
-	*/
 	let s32 = String::from("ena dva tri štiri pet šest sedem osem devet deset");
 	let start =  5;
 	let stop  = 27;
 	let slc32 = &s32[start..stop];
-	// println!("Test: start: {start}, dtop: {stop}, length: {}", slc32.len());
 	println!("'{s32}' -- ORIGINAL");
 	print!("'");
-	io::stdout().flush().unwrap(); // continue on same line
 	for _i in 0..start {
 		print!(".");
 	}
