@@ -11,10 +11,11 @@ struct Rectangle {
 
 /* main */
 fn main() {
+
+    /* no structuring data */
     let width1  = 30;
     let height1 = 50;
 
-    /* no structuring data */
     println!(
         "The area of the rectangle is {} sqare pixels. -- without structuring data",
         area(width1, height1)

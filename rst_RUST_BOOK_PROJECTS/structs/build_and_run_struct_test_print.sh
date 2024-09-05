@@ -9,7 +9,6 @@ echo -n "[INFO] compiling ${_src} into ${_dst} ..."
 rustc -o ${_dst} ${_src}
 echo " [OK]"
 echo "---"
-echo -e "Output:\n"
 ${mcmd}
 
 

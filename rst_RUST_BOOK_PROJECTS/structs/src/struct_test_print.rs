@@ -1,5 +1,4 @@
-/*
- * src/struct_test_print.rs
+/* src/struct_test_print.rs
  * chapter 5.2: An Example Program Using Structs
  *  pretty-print the struct
  * 20240905
@@ -31,6 +30,10 @@ fn main() {
      * = help: the trait `Debug` is not implemented for `Rectangle`
     */
     // println!("rect_st is {rect_st}"); /* error 1 */
-    println!("rect_st is {rect_st:?}"); /* error 2 */
-    println!("rect_st is {rect_st:#?}"); /* error 2 */
+    println!("Output '{}':", "{:?}");
+    println!("rect_st is{rect_st:?}"); /* error 2 */
+    println!("---");
+    println!("Output '{}':", "{:#?}");
+    println!("rect_st is{rect_st:#?}"); /* error 2 */
 }
+
