@@ -24,7 +24,7 @@ impl Rectangle {
 
 	/* method that returns WxH string */
 	fn hxv(&self) -> String {
-		return format!("{}x{}", self.width, self.height);
+		format!("{}x{}", self.width, self.height)
 	}
 }
 
