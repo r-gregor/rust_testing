@@ -3,6 +3,7 @@
  * 20240905
  */
 
+/* main */
 fn main() {
 	let mut s = String::from("Gregor");
 	println!("Original:   {s}");
@@ -22,7 +23,23 @@ fn main() {
 	print_middletwo(s2);
 
 	print_row_of_n_nums(10);
-}
+
+    // 20240906_en
+    println!("---");
+    // let mixed: (String, u32, bool) = ("Hello", 42, true);
+    //                                    |
+    //                                    +-- expected "String" found "&str" must be converted
+    //                                        to "String" with .to_string() method
+    let mixed1: (String, u32, bool) = ("Hello".to_string(), 42, true);
+    println!("mixed1 tuple = {:?}", mixed1);
+
+    // but OK if:
+    //            Ok!                  Ok!
+    let mixed2: (&str, u32, bool) = ("Hello", 42, true);
+    println!("mixed2 tuple = {:?}", mixed2);
+
+
+} /* end main */
 
 
 fn get_string_info(s: &str) {
@@ -45,6 +62,6 @@ fn print_row_of_n_nums(n: u32) {
 		print!("{i}, ");
 		i += 1;
 	}
-	print!("{}'", i + 1);
+	print!("{}'\n", i + 1);
 }
 
