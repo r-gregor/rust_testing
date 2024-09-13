@@ -1,6 +1,6 @@
-Sort files by chapter number in header
+grep -r -H chapter * 2>/dev/null | grep -v 'sort\|target\|test' | sort -n -k 4 |column -t
 
-$> grep -r -H chapter * | sort -n -k 4
+# Sort files by chapter number in header
 
 result:
 hello_world/main.rs: * chapter 1.2: Hello, World!
