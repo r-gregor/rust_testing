@@ -1,11 +1,13 @@
 /*
  * chapter 2: Programming a Guessing game
  * 20240903
+ * 20240913: addied 'colored' crate
  */
 
 use std::io;
 use rand::Rng;
 use std::cmp::Ordering;
+use colored::*;
 
 fn main() {
     println!("Guess the number");
@@ -32,10 +34,15 @@ fn main() {
         println!("You guessed: {}", guess);
 
         match guess.cmp(&secret_number) {
-            Ordering::Less => println!("Too small!"),
-            Ordering::Greater => println!("Too big!"),
+            // 20240913
+            // Ordering::Less => println!("Too small!"),
+            // Ordering::Greater => println!("Too big!"),
+            Ordering::Less => println!("{}", "Too small!".red()),
+            Ordering::Greater => println!("{}", "Too big!".red()),
             Ordering::Equal => {
-                println!("You win!");
+                // 20240913
+                // println!("You win!");
+                println!("{}", "You win!".green());
                 break;
             }
         }
