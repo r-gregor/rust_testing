@@ -5,5 +5,11 @@ pub fn bye(name: &str) {
 
 /* private function */
 fn get_module_name() -> String {
+	/*
 	String::from("byes")
+	// or ...
+	return "byes".to_string();
+	// or ...
+	*/
+	"byes".to_string()   // without ending semicolon => return
 }
