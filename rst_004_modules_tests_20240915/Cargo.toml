@@ -1,0 +1,6 @@
+[package]
+name = "rst_004_modules_tests_20240915"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
