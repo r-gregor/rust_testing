@@ -1,5 +1,5 @@
 [package]
-name = "rst_004_modules_tests_20240915"
+name = "modules_test"
 version = "0.1.0"
 edition = "2021"
 
