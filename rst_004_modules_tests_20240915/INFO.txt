@@ -1,0 +1,21 @@
+modules to be compiled by cargo as:
+	- <modulename>.rs in same dir as main.rs
+or
+	- <modulename>/mod.rs
+	
+
+.
+|-- Cargo.lock
+|-- Cargo.toml
+|-- INFO.txt
+|-- src
+|   |-- byes
+|   |   `-- mod.rs
+|   |-- greetings
+|   |   `-- mod.rs
+|   `-- main.rs
+`-- src2
+    |-- byes.rs
+    |-- greetings.rs
+    `-- main.rs
+

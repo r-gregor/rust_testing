@@ -1,3 +1,3 @@
 pub fn greeting(name: &str) {
-    println!("Hello {name}. Greeteinhs from module 'greetings.'" );
+    println!("Hello {name}. Greeteings from module 'greetings.'" );
 }

@@ -5,5 +5,5 @@ fn main() {
 	let myname: &str = "Gregor Redelonghi";
 	greetings::greeting(myname);
 	byes::bye(myname);
-
 }
+
