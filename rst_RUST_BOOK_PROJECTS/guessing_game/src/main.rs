@@ -1,5 +1,5 @@
 /*
- * chapter 2: Programming a Guessing game
+ * chapter 2.0: Programming a Guessing game
  * 20240903
  * 20240913: addied 'colored' crate
  */
