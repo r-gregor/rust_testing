@@ -1,4 +1,4 @@
-pub fn age_test(age: u32) {
+pub fn age_test(age: &u32) {
 	/*
 	match age {
 		0 ..= 17 => {
