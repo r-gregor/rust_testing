@@ -1,3 +1,5 @@
+use crate::match_test::age_test; // v2
+
 pub mod match_test;
 
 fn main() {
@@ -5,6 +7,7 @@ fn main() {
 	let ages = vec![5, 56, 99, 14, 85, 19, 77, 18, 22, 56];
 	for age in ages.iter() {
 		print!("Age: {:2} --> ", age);
-		match_test::age_test(age);
+		// match_test::age_test(age);
+		age_test(age); // v2
 	}
 }
