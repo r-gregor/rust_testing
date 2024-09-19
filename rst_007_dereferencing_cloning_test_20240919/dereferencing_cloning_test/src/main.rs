@@ -70,12 +70,12 @@ fn main() {
 
     {
         let mut original = String::from("Gregor");
-        println!("{}", original);
+        print!("{}, ", original);
         let name2 = &mut original;
-        print!("{}, ", name2);
+        println!("{}", name2);
         // name2 = String::from("Tadeja"); // error
         *name2 = String::from("Tadeja"); // OK
-        println!("{}", name2);
+        print!("{}, ", name2);
         println!("{}", original);
     }
 }
