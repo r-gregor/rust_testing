@@ -50,7 +50,7 @@ fn main() {
     println!("---");
 
     /* referencing a string */
-    println!("Output 5:");
+    println!("Output 6:");
 
     /* error
     {
@@ -66,12 +66,16 @@ fn main() {
         println!("{original}, {name2}");
     }
 
+    println!("---");
+
     {
         let mut original = String::from("Gregor");
-        print!("{}, ", original);
+        println!("{}", original);
         let name2 = &mut original;
+        print!("{}, ", name2);
         // name2 = String::from("Tadeja"); // error
         *name2 = String::from("Tadeja"); // OK
+        println!("{}", name2);
         println!("{}", original);
     }
 }
