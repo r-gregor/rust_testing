@@ -3,7 +3,7 @@ fn main() {
     let mut x: u32 = 0;
 
     /* primitives do not need to be cloned
-     * as they implement tje 'copy' trait
+     * as they implement the 'copy' trait
      */
     println!("Output 1:");
     for i in 1..=5 {
@@ -15,7 +15,7 @@ fn main() {
     println!("---");
 
     /* x referenced so it changes
-     * x refetence must be dereferenced to change
+     * x reference must be dereferenced to change
      */
     println!("Output 2:");
     for i in 1..=5 {
