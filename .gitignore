@@ -1,0 +1,10 @@
+*.exe
+**/*.exe
+target
+target/*
+**/target
+**/target/*
+majbin
+majbin/*
+**/majbin
+**/majbin/*

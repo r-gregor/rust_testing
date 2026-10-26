@@ -1,0 +1,6 @@
+[package]
+name = "rust_strings_testing_20240905"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
